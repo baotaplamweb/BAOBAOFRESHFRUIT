@@ -19,6 +19,10 @@ header {
          2px -2px 0 black,  
         -2px  2px 0 black,  
          2px  2px 0 black; /* Tạo outline đen */
+  max-width: 1000px; /* Giới hạn chiều rộng tối đa */
+  width: 100%; /* Đảm bảo co giãn theo màn hình */
+  margin: 0 auto; /* Căn giữa trang */
+
 }
 
 
@@ -33,6 +37,10 @@ header {
   background-position: center;
   border-radius: 0px; /* Bo góc cho đẹp */
   padding: 30px;
+  max-width: 1000px; /* Giới hạn chiều rộng tối đa */
+  width: 100%; /* Đảm bảo co giãn theo màn hình */
+  margin: 0 auto; /* Căn giữa trang */
+
 }
 
 
