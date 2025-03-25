@@ -1,0 +1,64 @@
+body {
+  font-family: Lobster, sans-serif;
+  text-align: center;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url('hình nền trên.webp'); /* Đường dẫn hình nền */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 50px;
+  font-size: 32px;
+  font-family: 'Luckiest Guy', cursive; /* Đổi font chữ */
+  text-shadow:  
+        -2px -2px 0 black,  
+         2px -2px 0 black,  
+        -2px  2px 0 black,  
+         2px  2px 0 black; /* Tạo outline đen */
+}
+
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+  background-image: url('background.jpg'); /* Đường dẫn hình nền */
+  background-size: cover;
+  background-position: center;
+  border-radius: 0px; /* Bo góc cho đẹp */
+  padding: 30px;
+}
+
+
+.fruit {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.fruit img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+footer {
+  font-family: 'Luckiest Guy', sans-serif;
+  background-color: rgba(0, 0, 0, 0.5); /* Màu đen trong suốt 50% */
+  color: white;
+  text-align: center;
+  padding: 1px; /* Giảm độ dày */
+  font-size: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.3); /* Viền trắng mờ */
+  backdrop-filter: blur(5px); /* Hiệu ứng mờ nền */
+}
